@@ -1,12 +1,11 @@
 package adapterPattern;
 
 public class SmartPhoneCharger {
-    public String chargePhone(){
+ public String chargePhone(){
         return "Charging...";
     }
 
-    public String turnOff(){
+    public String unplugPhone(){
         return "Charger unplugged....";
     }
-
 }
